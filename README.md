@@ -9,4 +9,4 @@
 7.  use (DB_DATABASE)
 8. inserez les questions  
 INSERT INTO questions (question,answer) VALUES ('Avez-vous des connaissances en finance','["Oui","Non"]');  
-INSERT INTO questions (question,answer,multiple_choice) VALUES ('Quels produits financiers connaissez-vous?','["Les Actions","Les Obligations","Les Produits Derives"]',true); 
+INSERT INTO questions (question,answer,multiple_choice) VALUES ('Quels produits financiers connaissez-vous','["Les Actions","Les Obligations","Les Produits Derives"]',true); 
