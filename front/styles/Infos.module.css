@@ -1,0 +1,25 @@
+.container{
+    margin-top:100px;
+    text-align: center;
+    font-size: 35px;
+}
+.containerQuestion{
+    margin-top: 60px;
+    display: grid;
+    gap: 80px;
+}
+.question{
+    display: grid;
+    gap: 30px;
+}
+.button{
+    width: var(--input-width);
+    height: var(--input-height);
+    border-radius: var(--input-radius);
+    background: var(--button-gradient);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 80px;
+}

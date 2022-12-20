@@ -1,0 +1,81 @@
+.container{
+    width: 60%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.question{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.inputGroup {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .label{
+    font-size: 20px;
+  }
+  .radio{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background: linear-gradient(var(--primary-color), var(--primary-color)) padding-box,linear-gradient(to bottom, #1C337F, #DF2A6B) border-box;
+    border: 1px solid transparent;
+    border-radius: var(--input-radius);
+  }
+  .inputGroup .radio:checked ~ .checkmark {
+    background:  linear-gradient(194deg, #1C337F, #DF2A6B) border-box;
+  }
+.navigation{
+    border-top: 1px solid black;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.button{
+    width: 120px;
+    height: 56px;
+    border-radius: var(--input-radius);
+    background: linear-gradient(var(--primary-color), var(--primary-color)) padding-box,linear-gradient(to bottom, #1C337F, #DF2A6B) border-box;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+.button:nth-child(2){
+    background: linear-gradient(to bottom, #1C337F, #DF2A6B) border-box;
+}
+.buttonRedirect{
+  width: 450px;
+  height: 76px;
+  border-radius: var(--input-radius);
+  background: linear-gradient(to bottom, #1C337F, #DF2A6B) border-box;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
